@@ -1,0 +1,9 @@
+torch>=2.1.1+cu118
+torchvision
+open_clip_torch==2.23.0
+transformers==4.35.2
+pytorchvideo==0.1.5
+pandas
+bitsandbytes
+scipy
+opencv-python

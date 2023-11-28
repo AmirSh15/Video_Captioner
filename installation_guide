@@ -1,0 +1,11 @@
+# For Coca
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+pip install open_clip_torch
+pip install 'transformers[torch]'
+# For VideoBLIP
+pip install pytorchvideo
+pip install pandas
+# LLM
+pip install bitsandbytes
+pip install scipy
+pip install opencv-python
