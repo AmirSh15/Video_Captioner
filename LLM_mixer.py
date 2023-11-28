@@ -19,13 +19,17 @@ logger = logging.getLogger(__name__)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--csv_path", default="/home/amir/Video_Captioner/data/captions.csv")
+    parser.add_argument("--csv_path", default="", help="path to csv file")
     parser.add_argument("--model", default="openchat/openchat_3.5")
     parser.add_argument("--device", default=None, help="cuda or cpu")
     parser.add_argument("--half_precision", action="store_true", default=False, help="use half precision")
     parser.add_argument("--use_4_bit", action="store_true", default=True, help="use 4 bit")
     parser.add_argument("--temperature", default=0.7, type=float)
     args = parser.parse_args()
+    
+    # check if the csv_path is empty
+    if args.csv_path == "":
+        raise ValueError("Please provide the path to csv file")
     
     if args.device is None:
         device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
