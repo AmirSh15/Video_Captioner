@@ -58,7 +58,7 @@ This will extract the video and image captions and save them in a csv file.
 ```python
 python LLM_mixer.py --csv_path <path_to_csv_created_in_step_2>
 ```
-Note: You can tweak the __message__ variable in _LLM_mixer.py_ to change the steer of the LLM output.
+Note: You can tweak the __message__ variable in _LLM_mixer.py_ to steer the LLM's output.
 
 ## Reference 
 If you found this repo useful give me a star!
