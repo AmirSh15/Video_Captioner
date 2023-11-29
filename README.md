@@ -16,7 +16,7 @@ In this project, in the first step an image-to-text model ([CoCa](https://github
 
 | Source Video| Coca | VideoBLIP | LLM |
 |:-------------------------------:|:--------------------------------------------------:| :--------------------------------------------------:| :--------------------------------------------------:|
-|<img src="assets/video_64605.gif" width="200"> | a person is cooking pasta in a pan on a table | a person holding a frying pan over a bowl of food | A person is cooking pasta in a pan on a table, while holding a frying pan over a bowl of food. |
+|<img src="assets/video_64605.gif" width="200"> | a person holding a frying pan over a bowl of food |  a person is cooking pasta in a pan on a table| A person is cooking pasta in a pan on a table, while holding a frying pan over a bowl of food. |
 |<img src="assets/video_67000.gif" width="200"> | a person cutting up carrots on top of a table | a person cutting vegetables on a cutting board | A person is cutting vegetables, including carrots, on a cutting board placed on top of a table. |
 |<img src="assets/motorcycle-riding-0.gif" width="200"> | a view from a motorcycle as it rides down the street | a person riding a motorcycle on a city street at sunset | A person is riding a motorcycle on a city street at sunset, experiencing a unique view from the motorcycle as it rides down the street. |
 
